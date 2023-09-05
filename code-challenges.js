@@ -33,6 +33,28 @@ const temperature3 = 212
 // Expected output: "212 is at boiling point"
 
 // Pseudo code:
+//Function: signature
+// Input: number
+// Outout: is number above or below boiling point
+// Process: write a conditional statement the determines if number is above or below boiling point
+// const num1 = 3
+// const num2 = 550
+// const num3 = 212
+const boilingPoint = (num) => {
+    if (num <= temperature1) {
+        return "below boiling point"
+    } else if (num > temperature2) {
+        return "above boiling point"
+    } else if (num === temperature3) {
+        return "at boiling point"
+    } else {
+        return "NO WATER!"
+    }
+}
+console.log(boilingPoint(212))
+// Output: console.log(boilingPoint(4)) below boiling point
+// Output: console.log(boilingPoint(500)) above boiling point
+// Output: console.log(boilingPoint(212)) at boiling point
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
@@ -41,6 +63,16 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
 // Pseudo code:
+//variable: two
+//input: two arrays that will combine
+//output: combined arrays that returns the inde value 
+//Process: .length and concatenation
+const captainPlanet = () => {
+    return padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns).length
+}
+console.log(captainPlanet());
+// Output: 9
+
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 
@@ -48,6 +80,18 @@ const currentCohort = "Foxtrot 2023"
 // Expected output: "3202 tortxoF"
 
 // Pseudo code:
+//Input: string value
+//Output: string value reversed using .reverse() .split() .join()    (.reverse() can only mutates arrays)
+
+const flip = () => {
+    let arr = currentCohort.split("")
+    return arr.reverse().join("")
+    
+}
+console.log(flip());
+//Output: TypeError: arr.reverse.join is not a function (this one blocked me lol)
+// New Output: 3,2,0,2, ,t,o,r,t,x,o,F
+// New Output: 3202 tortxoF 
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
@@ -60,3 +104,13 @@ const givenValue2 = 10
 // Expected output: 8
 
 // Pseudo code:
+//Function: variable 
+//Input: two variables to iterate through
+//Output: the last index of the two variables
+
+const lastIndex = () => {
+    
+    return numberOfConnections.lastIndexOf(givenValue1, givenValue2)
+}
+console.log(lastIndex());
+//Output: 7  (Only outputs givenValue1 when having two parameters)
