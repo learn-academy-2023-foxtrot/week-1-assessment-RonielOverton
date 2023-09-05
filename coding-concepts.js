@@ -36,7 +36,7 @@ const index = 1
 // console.log(languages[index])
 
 // a) Your answer: Code should retrun "Ruby".
-// b) Verify and explain: "Ruby" The code returned "Ruby" because <index> is assigned to the number 1 which is the second value in <languages>.
+// b) Verify and explain: Output "Ruby" The code returned "Ruby" because <index> is assigned to the number 1 which is the second value in <languages>.
 
 // --------------------4) What will this log?
 

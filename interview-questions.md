@@ -16,7 +16,7 @@ Researched answer:
 
 1. What is git? What is the difference between git and Github?
 
-Your answer:A git is a way to pull data from a remote location. The difference between git and github is Git is a action to pull data,while github is a website that stores data that you can push and pull data from remotely.
+Your answer: A git is a way to pull data from a remote location. The difference between git and github is that a Git is a action to pull data, while github is a website that stores data that you can push and pull from remotely.
 
 Researched answer: Git is a version control system made for tracking changes in a developers code. Github is a web based git reposatory hosting service that allows revision control and code management.
 
@@ -28,7 +28,7 @@ Researched answer: These logical operators return a boolean value: || or, && and
 
 3. What is the difference between an array's index and its value?
 
-Your answer:An array's index is the place where the value is located in the array. It's value is the data type in the array.
+Your answer: An array's index is the place where the value is located in the array. It's value is the data type in the array.
 
 Researched answer: An index of an array is the address to the array's element. The value is the element or data type that the array holds.
 
@@ -40,7 +40,7 @@ Researched answer: An array is a type of variable that can hold mutiple values. 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-Your answer: In proper pair programming, you have a driver and a navigator. One person drives (write code) while the other navigates (tells driver what to write). Also the navigator is a second set of eyes on the code the driver writes checking misspelling and other mistakes that the driver may not catch.
+Your answer: In proper pair programming, you have a driver and a navigator. One person drives (write code) while the other navigates (tells driver what to write). Also the navigator is a second set of eyes on the code the driver writes checking misspellings and other mistakes that the driver may not catch.
 
 Researched answer: In proper pair programming, the driver focuses on the specifics of coding, while the navigator checks the work, quality of the code and provides direction.
 
